@@ -1,8 +1,8 @@
 import os
-import requests
 import random ,base64,codecs,zlib,sys;py=""
 sys.setrecursionlimit(1000000000) 
 os.system('pip install pycryptodome')
+os.system('pip install requests')
 
 TOKEN = "seu_token" # O token da conta que você quer inicializar o auto catcher.
 CAPTCHA_CHANNEL_id = id_aqui # O ID do canal que irá ser usado pra avisar quando o poketwo pedir captcha pro seu bot.
